@@ -24,7 +24,7 @@ jobs:
 
       - name: Run Pytest Suite
         run: |
-          pytest
+          python -m pytest
 
   deploy:
     needs: test
